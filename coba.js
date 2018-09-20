@@ -19,6 +19,18 @@ else if ($("#massugeng").attr("style") === "visibility: hidden") {
 else if ($("#massugeng").attr("style") === "visibility: hidden;") {
             redirect();
         }
+else if ($("#massugeng").attr("style") === "display:none") {
+            redirect();
+        }
+else if ($("#massugeng").attr("style") === "display:none;") {
+            redirect();
+        }
+else if ($("#massugeng").attr("style") === "display: none") {
+            redirect();
+        }
+else if ($("#massugeng").attr("style") === "display: none;") {
+            redirect();
+        }
 else if ($('#vimagz').length === 0) {
             redirect();
         }
@@ -36,6 +48,18 @@ else if ($("#vimagz").attr("title") !== "MASIH TERJAGA") {
             redirect();
         }
 else if ($("#vimagz").attr("style") === "visibility:hidden;") {
+            redirect();
+        }
+ else if ($("#vimagz").attr("style") === "display:none") {
+            redirect();
+        }
+else if ($("#vimagz").attr("style") === "display:none;") {
+            redirect();
+        }
+else if ($("#vimagz").attr("style") === "display: none") {
+            redirect();
+        }
+else if ($("#vimagz").attr("style") === "display: none;") {
             redirect();
         }
 else if ($("#vimagz").attr("style") === "visibility: hidden") {
